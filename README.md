@@ -1,1 +1,0 @@
-* Julis Miró
