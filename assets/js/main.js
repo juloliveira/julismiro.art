@@ -221,8 +221,8 @@ $('.typing__module').each(function (index) {
 		    optData = eval('(' + self.attr('data-options') + ')'),
 		    optDefault = {
 		stringsElement: self.find('.typed-strings')[0],
-		typeSpeed: 50,
-		backSpeed: 500,
+		typeSpeed: 60,
+		backSpeed: 2000,
 		fadeOut: true,
 		loop: true
 	},
