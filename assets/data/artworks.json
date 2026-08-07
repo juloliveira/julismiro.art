@@ -1,0 +1,42 @@
+[
+  {
+    "id": "arte-001",
+    "title": "Cosmos e Vigília",
+    "category": "colagens",
+    "technique": "Colagem analógica e digital",
+    "dimensions": "Dimensões sob consulta",
+    "alt": "Colagem surreal em mídia mista por Julis Miró com nebulosa cósmica, crânio e figuras religiosas",
+    "image": "assets/img/arte-001.webp",
+    "thumb": "assets/img/arte-001-thumb.webp"
+  },
+  {
+    "id": "arte-002",
+    "title": "Vozes do Corpo",
+    "category": "colagens",
+    "technique": "Colagem analógica e digital",
+    "dimensions": "Dimensões sob consulta",
+    "alt": "Colagem surreal em mídia mista por Julis Miró com figura humana e boca substituindo o rosto",
+    "image": "assets/img/arte-002.webp",
+    "thumb": "assets/img/arte-002-thumb.webp"
+  },
+  {
+    "id": "arte-003",
+    "title": "Navegante Vegetal",
+    "category": "colagens",
+    "technique": "Colagem analógica e digital",
+    "dimensions": "Dimensões sob consulta",
+    "alt": "Colagem surreal em mídia mista por Julis Miró com cabeça vegetal e barco em miniatura",
+    "image": "assets/img/arte-003.webp",
+    "thumb": "assets/img/arte-003-thumb.webp"
+  },
+  {
+    "id": "arte-004",
+    "title": "Quatro Máscaras",
+    "category": "colagens",
+    "technique": "Colagem analógica e digital",
+    "dimensions": "Dimensões sob consulta",
+    "alt": "Colagem surreal em mídia mista por Julis Miró com quatro figuras e cabeças de animais e plantas",
+    "image": "assets/img/arte-004.webp",
+    "thumb": "assets/img/arte-004-thumb.webp"
+  }
+]
