@@ -168,15 +168,20 @@
           <h2 class="section__title" id="clipe-title">Clipe Oficial</h2>
           <p class="section__lead">Assista ao videoclipe de <strong>REVOLUÇÃO</strong>, single do projeto Quase Livres.</p>
         </header>
-        <div class="video__embed">
-          <iframe 
-            src="https://www.youtube.com/embed/AsDO9Lzf5AQ" 
-            title="Quase Livres — REVOLUÇÃO (Clipe Oficial)" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen
-            loading="lazy">
-          </iframe>
+        <div class="video__container">
+          <video 
+            class="video__player" 
+            src="videos/revolucao.mp4" 
+            controls 
+            preload="metadata">
+            Seu navegador não suporta a reprodução de vídeo nativo.
+          </video>
+        </div>
+        <div class="video__actions">
+          <a class="btn btn--primary" href="https://www.youtube.com/watch?v=AsDO9Lzf5AQ" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true" style="width: 20px; height: 20px; fill: currentColor; margin-right: 8px;"><path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.507a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.87.507 9.388.507 9.388.507s7.518 0 9.388-.507a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            Assistir no YouTube
+          </a>
         </div>
       </div>
     </section>

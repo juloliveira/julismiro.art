@@ -1293,24 +1293,27 @@ button {
   background: var(--bg);
 }
 
-.video__embed {
-  position: relative;
+.video__container {
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  max-width: 900px;
+  margin: 0 auto 2rem;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--border);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   background: #000;
+  aspect-ratio: 16 / 9;
 }
 
-.video__embed iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.video__player {
   width: 100%;
   height: 100%;
-  border: 0;
+  display: block;
+  object-fit: contain;
+}
+
+.video__actions {
+  text-align: center;
 }
 
 /* Reduced motion */
