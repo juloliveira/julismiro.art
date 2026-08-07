@@ -766,7 +766,13 @@ button {
 
 @media (min-width: 768px) {
   .social__grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .social__grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -812,6 +818,12 @@ button {
   box-shadow: 0 15px 30px rgba(255, 107, 0, 0.08);
 }
 
+.social-card--tiktok:hover {
+  border-color: rgba(37, 244, 238, 0.3);
+  background: rgba(37, 244, 238, 0.01);
+  box-shadow: 0 15px 30px rgba(37, 244, 238, 0.05), 0 15px 30px rgba(254, 9, 121, 0.05);
+}
+
 .social-card:hover {
   transform: translateY(-5px);
 }
@@ -854,6 +866,17 @@ button {
 .social-card--substack:hover .social-card__icon svg {
   fill: #ff6b00;
   transform: scale(1.1);
+}
+
+.social-card--tiktok:hover .social-card__icon {
+  border-color: rgba(37, 244, 238, 0.4);
+  background: rgba(37, 244, 238, 0.08);
+}
+
+.social-card--tiktok:hover .social-card__icon svg {
+  fill: #fff;
+  transform: scale(1.1);
+  filter: drop-shadow(-1.5px -1.5px 0 #fe0979) drop-shadow(1.5px 1.5px 0 #25f4ee);
 }
 
 .social-card__content {
