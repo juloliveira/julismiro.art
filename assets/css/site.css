@@ -221,7 +221,7 @@ button {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background: url("../img/arte-002.webp") center / cover no-repeat;
+  background: url("../img/arte-001.webp") center / cover no-repeat;
   transform: scale(1.03);
   opacity: 0.65;
 }
